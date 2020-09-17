@@ -1,0 +1,11 @@
+.billing-detail-main-container {
+    width: 100%;
+    padding: 38px 83px 0 83px;
+    max-width: 1045px;
+    margin: 0 auto;
+}
+
+.details-main-container {
+    background-color: #ffffff;
+    padding: 30px;
+}

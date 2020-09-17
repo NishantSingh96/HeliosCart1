@@ -1,0 +1,32 @@
+.purchase-detail-container {
+    margin-bottom: 80px;
+}
+
+.grid-row {
+    padding: 0px !important;
+}
+
+.purchase-title-main-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.purchase-title-container > span {
+    font-size: 30px;
+    color: #000000;
+    line-height: 45px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.modify-text {
+    color: #bac3c9;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.purchase-order-top-right-container {
+    display: flex;
+    justify-content: space-between;
+}
