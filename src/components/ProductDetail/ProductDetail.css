@@ -24,3 +24,71 @@
 .billing-detail-title {
     margin-bottom: 14px;
 }
+
+.same-as-buyer-details-checkbox > label {
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.main { 
+    display: block; 
+    position: relative; 
+    padding-left: 15px; 
+    margin-bottom: 15px; 
+    cursor: pointer; 
+    font-size: 20px; 
+} 
+  
+/* Hide the default checkbox */ 
+input[type=checkbox] { 
+    visibility: hidden; 
+} 
+  
+/* Creating a custom checkbox 
+based on demand */ 
+.geekmark { 
+    position: absolute;
+    top: 1px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    border: 1.5px solid orange;
+    border-radius: 2px; 
+} 
+
+  
+/* Specify the background color to be 
+shown when checkbox is checked */ 
+.main input:checked ~ .geekmark { 
+    background-color: white; 
+} 
+  
+/* Checkmark to be shown in checkbox */ 
+/* It is not be shown when not checked */ 
+.geekmark:after { 
+    content: ""; 
+    position: absolute; 
+    display: none; 
+} 
+  
+/* Display checkmark when checked */ 
+.main input:checked ~ .geekmark:after { 
+    display: block; 
+} 
+  
+/* Styling the checkmark using webkit */ 
+/* Rotated the rectangle by 45 degree and  
+showing only two border to make it look 
+like a tickmark */ 
+.main .geekmark:after { 
+    left: 5px; 
+    bottom: 3px; 
+    width: 4px; 
+    height: 8px; 
+    border: solid orange; 
+    border-width: 0 3px 3px 0; 
+    -webkit-transform: rotate(45deg); 
+    -ms-transform: rotate(45deg); 
+    transform: rotate(45deg); 
+} 

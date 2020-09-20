@@ -4,6 +4,9 @@ import React from 'react';
 import Header from '../Header';
 import PurchaseDetail from '../PurchaseDetail';
 import ProductDetail from '../ProductDetail';
+import TotalCost from '../TotalCost';
+import IndividualProduct from '../IndividualProduct';
+import productDetail from '../IndividualProduct/helper';
 
 // import css
 import './BillingDetail.css';
@@ -18,6 +21,8 @@ const BillingDetail = props => {
                 <ProductDetail isSellerType/>
                 <ProductDetail isSellerType={false}/>
             </div>
+            <TotalCost />
+            <IndividualProduct productNumber="Product-1" productTitle="25 mm LMS (Low Mechanical Strength) GI Conduit" productSubTitle="Electric Pole" productDetail={productDetail}/>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Form } from 'semantic-ui-react';
+import { Grid, Form, Checkbox } from 'semantic-ui-react';
 
 // import custom component
 import FieldComponent from '../FieldComponent';
@@ -65,10 +65,18 @@ const ProductDetail = props => {
                 {!isSellerType &&
                 <>
                     <Grid.Row>
-                        <div className="billing-detail-title">Billing Details</div>
+                        <Grid.Column width={16}><div className="billing-detail-title">Billing Details</div></Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
-                        <div className="same-as-buyer-details-checkbox">Same as Buyer Details</div>
+                        <Grid.Column width={16}>
+                        <div className="same-as-buyer-details-checkbox">
+                            <label className="main">
+                                <input type="checkbox" /> 
+                                <span className="geekmark"></span> 
+                                Same as Buyer Details
+                            </label> 
+                        </div>
+                        </Grid.Column>
                     </Grid.Row>
                 </>
                 }

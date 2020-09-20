@@ -1,0 +1,81 @@
+.total-cost-parent-container {
+    border-top: 1px solid #e2e1e4;
+}
+
+.total-cost-product-header-container {
+    height: 51px !important;
+    background-color: #f4f3f6;
+    display: flex !important;
+    align-items: center !important;
+    padding: 0px 30px 0px 30px !important;
+}
+
+.total-cost-title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px !important;
+    line-height: 34px;
+    color: #1d1e1f !important;
+    font-weight: 600;
+    background-color: #ffffff;
+    padding: 10px 30px 30px 30px !important;
+}
+
+.total-cost-detail-list {
+    background-color: #ffffff;
+}
+
+.total-cost-product-title {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #1d1e1f;
+}
+
+.total-cost-product-details {
+    text-align: center !important;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #1d1e1f;
+}
+
+.tool-tip-img {
+    position: relative;
+    top: 3px;
+    left: 3px;
+    cursor: pointer;
+}
+
+.total-cost-value {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: #f4f3f6;
+    height: 85px;
+    align-items: center;
+}
+
+.in-words-title {
+    font-size: 12px;
+    color: #1d1e1f;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.in-words-value {
+    font-size: 14px;
+    color: #1d1e1f;
+    line-height: 22px;
+}
+
+.total-cost-value-in-number {
+    font-size: 18px;
+    color: #1d1e1f;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    margin-right: 33px;
+}

@@ -1,0 +1,16 @@
+.indivual-cost-container {
+    border-bottom: 1px solid #f4f3f6;
+    padding: 28px 30px !important;
+}
+
+.indivual-cost-property {
+  font-size: 14px;
+  line-height: 1.57;
+  color: #1d1e1f;
+  text-align: center;
+  padding-right: 0 !important;
+}
+
+.product {
+    text-align: initial;
+}
