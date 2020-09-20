@@ -1,0 +1,12 @@
+.multilocation-location-container {
+    width: 49%;
+    padding: 15px 20px 0px 0px;
+}
+
+.multilocation-grey-text {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 22px;
+    color: #90969a;
+    margin-bottom: 13px;
+}

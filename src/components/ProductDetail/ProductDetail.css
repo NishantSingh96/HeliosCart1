@@ -5,11 +5,14 @@
 }
 
 .product-detail-title {
-    padding-left: 1rem;
-    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px !important;
     line-height: 34px;
-    color: #1d1e1f;
-    font-weight: 500;
+    color: #1d1e1f !important;
+    font-weight: 600;
+    background-color: #ffffff;
+    margin-bottom: 15px;
 }
 
 .contact-person-text, .billing-detail-title {

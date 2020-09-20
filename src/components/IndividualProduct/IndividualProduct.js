@@ -48,13 +48,13 @@ class IndividualProduct extends React.Component {
         } = this.props;
         const {activeIndex} = this.state;
         return (
-            <div>
+            <div className="individal-product-parent-container">
                 <Accordion>
                         <Accordion.Title
                         active={activeIndex === 0}
                         index={0}
                         onClick={this.handleClick}
-                        className="total-cost-title"
+                        className="product-number-title"
                         >
                         {productNumber}
                         {activeIndex === 0 && <Icon name='caret up' />}
@@ -62,7 +62,7 @@ class IndividualProduct extends React.Component {
                         </Accordion.Title>
                     <Accordion.Content active={activeIndex === 0}>
                         <div className="individal-product-title">{productTitle}</div>
-                        <div className="individal-product-sub-title">Package: {productSubTitle}</div>
+                        <div className="individal-product-sub-title"><span>Package:</span> {productSubTitle}</div>
                         <div className="individual-product-location-flex-container">
                             {this.multiLocationFunction()}
                         </div>

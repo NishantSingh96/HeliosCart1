@@ -17,10 +17,10 @@ const LocationDetail = props => {
         <>
         {multiLocation && 
             (
-                <div>
-                    <div>Location {locationNumer}</div>
+                <div className="multilocation-location-container">
+                    <div className="multilocation-grey-text">Location {locationNumer}</div>
                     <FieldComponent label="Address" type="dropdown" options={addressList} withoutBorder={false} />
-                    <div>Store Incharge</div>
+                    <div className="multilocation-grey-text">Store Incharge</div>
                     <FieldComponent label="Name" type="dropdown" options={nameList} withoutBorder={false} />
                     <FieldComponent label="Contact No." type="dropdown" options={contactList} withoutBorder={false} />
                 </div>
